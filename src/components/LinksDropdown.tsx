@@ -135,12 +135,8 @@ export function LinksDropdown(props: { children: React.ReactNode }) {
               {t("navigation.menu.register")}
             </DropdownLink>
           )}
-          <Divider />
           <DropdownLink href="/settings" icon={Icons.SETTINGS}>
             {t("navigation.menu.settings")}
-          </DropdownLink>
-          <DropdownLink href="/about" icon={Icons.CIRCLE_QUESTION}>
-            {t("navigation.menu.about")}
           </DropdownLink>
           {deviceName ? (
             <DropdownLink
@@ -158,6 +154,7 @@ export function LinksDropdown(props: { children: React.ReactNode }) {
               icon={Icons.DISCORD}
             />
             <CircleDropdownLink href={conf().GITHUB_LINK} icon={Icons.GITHUB} />
+            <CircleDropdownLink href="/about" icon={Icons.CIRCLE_QUESTION} />
           </div>
         </div>
       </Transition>
