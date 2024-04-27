@@ -142,12 +142,12 @@
           "movie-vault is the best site ever!",
           "What's on your watchlist today?",
           "How was your day?",
-          "My bad the site never works...",
+          "My bad, the site never works...",
           "Isn't movie-vault just the best?",
           ">ᴗ<"
         ]
       },
-      "sectionTitle": "Search results"
+      "sectionTitle": "Search results: "
     },
     "titles": {
       "day": {
@@ -168,7 +168,7 @@
         "default": "What would you like to watch tonight?",
         "extra": ["Rick & Morty is great with friends!"],
         "extra": ["Go smoke and watch The Simpsons!"],
-        "extra": ["(づ ᴗ _ᴗ)づ♡"],
+        "extra": ["(づ ᴗ _ᴗ)づ"],
         "extra": ["Viva la movie-vault!"]
       },
       "420": {

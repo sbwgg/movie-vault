@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react"; // thanks baddev <3
 import "./Lightbar.css";
 
 interface LightbarOptions {
@@ -153,7 +153,7 @@ function ParticlesCanvas() {
     let imageParticleCount = particleCount;
 
     switch (true) {
-      case (month === 11 && day >= 24 && day <= 26) || Math.random() < 0.051:
+      case (month === 12 && day >= 24 && day <= 26):
         imageOverride = [
           {
             image: "/lightbar-images/snowflake.svg",
@@ -167,7 +167,7 @@ function ParticlesCanvas() {
         imageParticleCount = particleCount * 0.1;
         break;
 
-      case (month === 9 && day >= 29 && day <= 31) || Math.random() < 0.05:
+      case (month === 9 && day >= 29 && day <= 31):
         imageOverride = [
           {
             image: "/lightbar-images/ghost.png",
@@ -181,73 +181,8 @@ function ParticlesCanvas() {
         imageParticleCount = particleCount * 0.0879;
         break;
 
-      case Math.random() < 0.1:
-        imageOverride = [
-          {
-            image: "/lightbar-images/fishie.png",
-            sizeRange: [10, 13] as [number, number],
-          },
-          {
-            image: "/lightbar-images/shark.png",
-            sizeRange: [48, 56] as [number, number],
-          },
-        ];
-        imageParticleCount = particleCount * 0.075;
-        break;
 
-      case month + 1 === 4 && day === 20:
-        imageOverride = [
-          {
-            image: "/lightbar-images/weed.png",
-            sizeRange: [32, 40] as [number, number],
-          },
-        ];
-        imageParticleCount = particleCount / 6.25;
-        break;
-
-      case Math.random() < 0.2:
-        imageOverride = [
-          {
-            image: "/lightbar-images/cat.png",
-            sizeRange: [30, 38] as [number, number],
-          },
-        ];
-        imageParticleCount = particleCount / 6.6;
-        break;
-
-      case Math.random() < 0.3:
-        imageOverride = [
-          {
-            image: "/lightbar-images/camera.png",
-            sizeRange: [24, 32] as [number, number],
-          },
-          {
-            image: "/lightbar-images/popcorn.png",
-            sizeRange: [18, 27] as [number, number],
-          },
-        ];
-        imageParticleCount = particleCount / 7.85;
-        break;
-
-      case Math.random() < 0.08:
-        imageOverride = [
-          {
-            image: "/lightbar-images/cock.png",
-            sizeRange: [25, 32] as [number, number],
-          },
-          {
-            image: "/lightbar-images/egg.png",
-            sizeRange: [18, 24] as [number, number],
-          },
-          {
-            image: "/lightbar-images/barn.png",
-            sizeRange: [32, 38] as [number, number],
-          },
-        ];
-        imageParticleCount = particleCount / 9;
-        break;
-
-      case Math.random() < 0.06:
+        case Math.random() < 0.6:
         imageOverride = [
           {
             image: "/lightbar-images/money-sack.png",
@@ -265,84 +200,45 @@ function ParticlesCanvas() {
         imageParticleCount = particleCount / 8.45;
         break;
 
-      case Math.random() < 0.075:
+        case Math.random() < 0.7:
+          imageOverride = [
+            {
+              image: "/lightbar-images/beer.png",
+              sizeRange: [15, 35] as [number, number],
+            },
+            {
+              image: "/lightbar-images/beer-bottle.png",
+              sizeRange: [10, 38] as [number, number],
+            },
+            {
+              image: "/lightbar-images/wine.png",
+              sizeRange: [15, 35] as [number, number],
+            },
+            {
+              image: "/lightbar-images/cigarette.png",
+              sizeRange: [10, 38] as [number, number],
+            },
+            {
+              image: "/lightbar-images/cigarette2.png",
+              sizeRange: [15, 35] as [number, number],
+            },
+          ];
+          imageParticleCount = particleCount / 11;
+          break;
+
+      case Math.random() < 0.5:
         imageOverride = [
           {
-            image: "/lightbar-images/skull.png",
-            sizeRange: [20, 28] as [number, number],
+            image: "/lightbar-images/camera.png",
+            sizeRange: [24, 32] as [number, number],
           },
           {
-            image: "/lightbar-images/ship.png",
-            sizeRange: [23, 27] as [number, number],
+            image: "/lightbar-images/popcorn.png",
+            sizeRange: [18, 27] as [number, number],
           },
         ];
-        imageParticleCount = particleCount / 10;
+        imageParticleCount = particleCount / 7.85;
         break;
-
-      case Math.random() < 0.03:
-        imageOverride = [
-          {
-            image: "/lightbar-images/ts.png",
-            sizeRange: [20, 32] as [number, number],
-          },
-          {
-            image: "/lightbar-images/git.png",
-            sizeRange: [20, 28] as [number, number],
-          },
-        ];
-        imageParticleCount = particleCount / 9;
-        break;
-
-      case Math.random() < 0.7:
-        imageOverride = [
-          {
-            image: "/lightbar-images/beer.png",
-            sizeRange: [15, 35] as [number, number],
-          },
-          {
-            image: "/lightbar-images/beer-bottle.png",
-            sizeRange: [10, 38] as [number, number],
-          },
-          {
-            image: "/lightbar-images/wine.png",
-            sizeRange: [15, 35] as [number, number],
-          },
-          {
-            image: "/lightbar-images/cigarette.png",
-            sizeRange: [10, 38] as [number, number],
-          },
-          {
-            image: "/lightbar-images/cigarette2.png",
-            sizeRange: [15, 35] as [number, number],
-          },
-        ];
-        imageParticleCount = particleCount / 11;
-        break;
-
-      case Math.random() < 0.05:
-        imageOverride = [
-          {
-            image: "/lightbar-images/auto-gun.png",
-            sizeRange: [28, 36] as [number, number],
-          },
-          {
-            image: "/lightbar-images/gun.png",
-            sizeRange: [23, 30] as [number, number],
-          },
-        ];
-        imageParticleCount = particleCount / 11.6;
-        break;
-
-      case Math.random() < 0.15:
-        imageOverride = [
-          {
-            image: "/lightbar-images/star.png",
-            sizeRange: [18, 28] as [number, number],
-          },
-        ];
-        imageParticleCount = particleCount / 6.6;
-        break;
-
       default:
         // Default case
         break;

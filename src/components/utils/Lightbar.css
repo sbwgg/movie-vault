@@ -40,9 +40,7 @@
   --second: conic-gradient(from 270deg at 20% 50%, var(--bottom), var(--top));
   mask-image: radial-gradient(100% 50% at center center, black, transparent);
   background-image: var(--first), var(--second);
-  background-position-x: 1%, 99%;
-  background-position-y: 0%, 0%;
-  background-size: 50% 100%, 50% 100%;
+  top: -50%;
   opacity: 1;
   transform: rotate(180deg) translateZ(0px) translateY(400px);
   transform-origin: center center;

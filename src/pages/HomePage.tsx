@@ -24,7 +24,6 @@ function useSearch(search: string) {
   useEffect(() => {
     setLoading(false);
   }, [debouncedSearch]);
-
   return {
     loading,
     searching,
@@ -42,14 +41,17 @@ export function HomePage() {
     <HomeLayout showBg={showBg}>
       <div className="mb-16 sm:mb-24">
         <Helmet>
-          <style type="text/css">{`
-            html, body {
-              scrollbar-gutter: stable;
-            }
-          `}</style>
           <title>{t("global.name")}</title>
         </Helmet>
         <HeroPart searchParams={searchParams} setIsSticky={setShowBg} />
+        <div style={{ textAlign: 'center' }}>
+  <a href="/discover" style={{ display: 'inline-block', textDecoration: 'none', color: 'inherit' }}>
+    <p className="font-bold text-buttons-secondaryText" id="explore" style={{ fontSize: '18px' }}>
+    🎥 Discover Your Next Movie or Series 🎥
+    </p>
+  </a>
+</div>
+
       </div>
       <WideContainer>
         {s.loading ? (
@@ -66,3 +68,4 @@ export function HomePage() {
     </HomeLayout>
   );
 }
+
