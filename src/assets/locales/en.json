@@ -72,7 +72,7 @@
       "host": "You are connecting to <0>{{hostname}}</0> - please confirm you trust it before making an account...",
       "no": "Go back",
       "title": "Do you trust this server?",
-      "yes": "I trust this server "
+      "yes": "I trust this server."
     },
     "verify": {
       "description": "Please enter your passphrase from earlier to confirm you have saved it and to create your account",

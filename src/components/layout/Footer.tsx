@@ -6,7 +6,6 @@ import type { RequireExactlyOne } from "type-fest";
 import { Icon, Icons } from "@/components/Icon";
 import { BrandPill } from "@/components/layout/BrandPill";
 import { WideContainer } from "@/components/layout/WideContainer";
-import { shouldHaveDmcaPage } from "@/pages/Dmca";
 import { conf } from "@/setup/config";
 
 // to and href are mutually exclusive
@@ -46,9 +45,6 @@ function FooterLink(props: FooterLinkProps) {
 function Dmca() {
   const { t } = useTranslation();
 
-  if (!shouldHaveDmcaPage()) return null;
-  if (window.location.hash === "#/dmca") return null;
-
   return (
     <FooterLink to="/dmca" icon={Icons.DRAGON}>
       {t("footer.links.dmca")}
@@ -78,11 +74,6 @@ export function Footer() {
           <FooterLink icon={Icons.DISCORD} href={conf().DISCORD_LINK}>
             {t("footer.links.discord")}
           </FooterLink>
-          <div className="inline md:hidden">
-            <Dmca />
-          </div>
-        </div>
-        <div className="hidden items-center justify-end md:flex -mr-3">
           <Dmca />
         </div>
       </WideContainer>
