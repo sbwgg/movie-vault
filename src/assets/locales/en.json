@@ -72,7 +72,7 @@
       "host": "You are connecting to <0>{{hostname}}</0> - please confirm you trust it before making an account...",
       "no": "Go back",
       "title": "Do you trust this server?",
-      "yes": "I trust this server 🤞"
+      "yes": "I trust this server "
     },
     "verify": {
       "description": "Please enter your passphrase from earlier to confirm you have saved it and to create your account",
@@ -85,7 +85,7 @@
     }
   },
   "errors": {
-    "badge": "It broke 💀",
+    "badge": "It broke ",
     "details": "Error details",
     "reloadPage": "Reload the page",
     "showError": "Show error details",
@@ -161,14 +161,12 @@
         "default": "What would you like to watch this morning?",
         "extra": ["Can't go wrong with Friends"],
         "extra": ["I hear The Expanse is popular"],
-        "extra": ["\"૮₍  ˶•⤙•˶ ₎ა"],
         "extra": ["Viva la movie-vault!"]
       },
       "night": {
         "default": "What would you like to watch tonight?",
         "extra": ["Rick & Morty is great with friends!"],
         "extra": ["Go smoke and watch The Simpsons!"],
-        "extra": ["(づ ᴗ _ᴗ)づ"],
         "extra": ["Viva la movie-vault!"]
       },
       "420": {
@@ -257,7 +255,7 @@
       "explainer": "To get the best streams possible, you will need to choose which streaming method you want to use.",
       "options": {
         "default": {
-          "text": "I don't want good quality streams,<0 /> <1>use the default setup ▄︻デ══━一 ʕ•͡-•ʔ</1>"
+          "text": "I don't want good quality streams,<0 /> <1>use the default setup</1>"
         },
         "extension": {
           "action": "Install extension",
@@ -312,7 +310,7 @@
       },
       "episodes": {
         "button": "Episodes",
-        "emptyState": "There are no episodes in this season, check back later (sorry :3)...",
+        "emptyState": "There are no episodes in this season, check back later...",
         "episodeBadge": "E{{episode}}",
         "loadingError": "Error loading season",
         "loadingList": "Loading...",
@@ -480,7 +478,7 @@
       "textWithReset": "Failed to load your profile from your custom server, want to reset back to the default server?"
     },
     "migration": {
-      "failed": "Failed to migrate your data. 😿",
+      "failed": "Failed to migrate your data.",
       "inProgress": "Please hold, we are migrating your data. This shouldn't take long..."
     }
   },
@@ -501,7 +499,7 @@
         "delete": {
           "button": "Delete account",
           "confirmButton": "Delete account",
-          "confirmDescription": "Are you sure you want to delete your account? All your data will be lost! ૮₍˶Ó﹏Ò ⑅₎ა",
+          "confirmDescription": "Are you sure you want to delete your account? All your data will be lost!",
           "confirmTitle": "Are you sure?",
           "text": "This action is irreversible. All data will be deleted and nothing can be recovered.",
           "title": "Delete account"
@@ -523,7 +521,7 @@
       },
       "register": {
         "cta": "Get started",
-        "text": "Share your watch progress between devices and keep them synced. ( ̧⸝⸝⍢⸝⸝)ෆ",
+        "text": "Share your watch progress between devices and keep them synced.",
         "title": "Sync to the cloud"
       },
       "title": "Account"
@@ -549,7 +547,7 @@
         "doSetup": "Do setup",
         "errorStatus": {
           "description": "It seems that one or more items in this setup need your attention.",
-          "title": "Something needs your attention 😱"
+          "title": "Something needs your attention."
         },
         "itemError": "There is something wrong with this setting. Go through setup again to fix it. (ᴗ_ ᴗ。)",
         "items": {
@@ -579,7 +577,7 @@
     },
     "preferences": {
       "language": "Application language",
-      "languageDescription": "Language applied to the entire application, only English has silly stuff 🙁.",
+      "languageDescription": "Language applied to the entire application, only English has silly stuff.",
       "thumbnail": "Generate thumbnails",
       "thumbnailDescription": "Most of the time, videos don't have thumbnails. You can enable this setting to generate them on the fly but they can make your video slower.",
       "thumbnailLabel": "Generate thumbnails",
@@ -599,7 +597,7 @@
         "insecure": "Insecure",
         "notLoggedIn": "You are not logged in",
         "secure": "Secure",
-        "title": "App stats (for nerds) 🤓",
+        "title": "App stats (for nerds) ",
         "unknownVersion": "Unknown",
         "userId": "User ID"
       }
@@ -608,7 +606,7 @@
       "backgroundLabel": "Background opacity",
       "backgroundBlurLabel": "Background blur",
       "colorLabel": "Color",
-      "previewQuote": "Would you rather have a thot daughter or a gay son? 🤔",
+      "previewQuote": "Would you rather have a thot daughter or a gay son?",
       "textSizeLabel": "Text size",
       "title": "Subtitles"
     },
