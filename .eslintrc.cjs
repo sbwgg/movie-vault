@@ -14,7 +14,7 @@ module.exports = {
     "airbnb",
     "airbnb/hooks",
     "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended" // Add this line
   ],
   ignorePatterns: [
     "public/*",
@@ -38,7 +38,7 @@ module.exports = {
       }
     }
   },
-  plugins: ["@typescript-eslint", "import", "prettier"],
+  plugins: ["@typescript-eslint", "import"],
   rules: {
     "react/jsx-uses-react": "off",
     "react/react-in-jsx-scope": "off",
@@ -103,6 +103,8 @@ module.exports = {
         allowSeparatedGroups: true
       }
     ],
+    // Disable ESLint rule that enforces single quotes
+    "quotes": "off",
     ...a11yOff
   }
 };

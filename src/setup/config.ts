@@ -1,19 +1,23 @@
 import {
+  ADMIN,
   APP_VERSION,
   BACKEND_URL,
   DISCORD_LINK,
   DONATION_LINK,
   GITHUB_LINK,
+  TOP_RATED,
   TWITTER_LINK,
 } from "./constants";
 
 interface Config {
   APP_VERSION: string;
+  ADMIN: string;
   GITHUB_LINK: string;
   DONATION_LINK: string;
   DISCORD_LINK: string;
   DMCA_EMAIL: string;
   TWITTER_LINK: string;
+  TOP_RATED: string;
   TMDB_READ_API_KEY: string;
   CORS_PROXY_URL: string;
   NORMAL_ROUTER: boolean;
@@ -30,11 +34,13 @@ interface Config {
 
 export interface RuntimeConfig {
   APP_VERSION: string;
+  ADMIN: string;
   GITHUB_LINK: string;
   DONATION_LINK: string;
   DISCORD_LINK: string;
   DMCA_EMAIL: string | null;
   TWITTER_LINK: string;
+  TOP_RATED: string;
   TMDB_READ_API_KEY: string | null;
   NORMAL_ROUTER: boolean;
   PROXY_URLS: string[];
@@ -51,11 +57,13 @@ export interface RuntimeConfig {
 
 const env: Record<keyof Config, undefined | string> = {
   TMDB_READ_API_KEY: import.meta.env.VITE_TMDB_READ_API_KEY,
+  ADMIN: undefined,
   APP_VERSION: undefined,
   GITHUB_LINK: undefined,
   DONATION_LINK: undefined,
   DISCORD_LINK: undefined,
   TWITTER_LINK: undefined,
+  TOP_RATED: undefined,
   ONBOARDING_CHROME_EXTENSION_INSTALL_LINK:
     "https://chrome.google.com/webstore/detail/movie-web-extension/hoffoikpiofojilgpofjhnkkamfnnhmm?hl=en-GB",
   ONBOARDING_FIREFOX_EXTENSION_INSTALL_LINK: import.meta.env
@@ -95,10 +103,12 @@ function getKey(key: keyof Config, defaultString?: string): string | null {
 export function conf(): RuntimeConfig {
   return {
     APP_VERSION,
+    ADMIN,
     GITHUB_LINK,
     DONATION_LINK,
     DISCORD_LINK,
     TWITTER_LINK,
+    TOP_RATED,
     DMCA_EMAIL: getKey("DMCA_EMAIL"),
     ONBOARDING_CHROME_EXTENSION_INSTALL_LINK: getKey(
       "ONBOARDING_CHROME_EXTENSION_INSTALL_LINK",

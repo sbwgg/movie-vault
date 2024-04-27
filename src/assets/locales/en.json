@@ -1,17 +1,17 @@
 {
   "about": {
-    "description": "sudo-flix is a fork of movie-web that is ensured to stay up even after the shutdown of movie-web.app. sudo-flix.lol runs on a private, self-hosted VPS. I run this site at a loss; there are no ads due to my beliefs in free media.",
+    "description": "movie-vault is a fork of movie-web that is ensured to stay up even after the shutdown of movie-web.app. movie-vault.lol runs on a private, self-hosted VPS. I run this site at a loss; there are no ads due to my beliefs in free media.",
     "faqTitle": "Common questions",
     "q1": {
-      "body": "sudo-flix does not host any content. When you click on something to watch, the internet is searched for the selected media (On the loading screen and in the 'video sources' tab you can see which source you're using). Media never gets uploaded by sudo-flix, everything is through this searching mechanism.",
+      "body": "movie-vault does not host any content. When you click on something to watch, the internet is searched for the selected media (On the loading screen and in the 'video sources' tab you can see which source you're using). Media never gets uploaded by movie-vault, everything is through this searching mechanism.",
       "title": "Where does the content come from?"
     },
     "q2": {
-      "body": "I do not collect donations for sudo-flix. All donations go directly to the movie-web team's kofi",
+      "body": "I do not collect donations for movie-vault. All donations go directly to the movie-web team's kofi",
       "title": "Where do my donations go?"
     },
     "q3": {
-      "body": "It's not possible to request a show or movie, sudo-flix does not manage any content. All content is viewed through sources on the internet.",
+      "body": "It's not possible to request a show or movie, movie-vault does not manage any content. All content is viewed through sources on the internet.",
       "title": "Where can I request a show or movie?"
     },
     "q4": {
@@ -23,17 +23,17 @@
       "title": "What about my data and stuff?"
     },
     "q6": {
-      "body": "Well sudo-flix has a twitter account that can be found in the footer of this page as well as a link to the source code on Github.",
+      "body": "Well movie-vault has a twitter account that can be found in the footer of this page as well as a link to the source code on Github.",
       "title": "How can I find out more?"
     },
-    "title": "About sudo-flix (^▽^)"
+    "title": "About movie-vault (^▽^)"
   },
   "actions": {
     "copied": "Copied",
     "copy": "Copy"
   },
   "auth": {
-    "createAccount": "Don't have an account yet 😬 <0>Create an account.</0>",
+    "createAccount": "Don't have an account yet <0>Create an account.</0>",
     "deviceNameLabel": "Device name",
     "deviceNamePlaceholder": "Personal phone",
     "generate": {
@@ -50,7 +50,7 @@
       "passphrasePlaceholder": "Passphrase",
       "submit": "Login",
       "title": "Login to your account",
-      "validationError": "Incorrect or incomplete passphrase /ᐠ. .ᐟ\\"
+      "validationError": "Incorrect or incomplete passphrase.\\"
     },
     "register": {
       "information": {
@@ -77,7 +77,7 @@
     "verify": {
       "description": "Please enter your passphrase from earlier to confirm you have saved it and to create your account",
       "invalidData": "Data is not valid",
-      "noMatch": "Passphrase doesn't match 😭",
+      "noMatch": "Passphrase doesn't match ",
       "passphraseLabel": "Your 12-word passphrase",
       "recaptchaFailed": "ReCaptcha validation failed",
       "register": "Create account",
@@ -93,8 +93,8 @@
   },
   "footer": {
     "legal": {
-      "disclaimer": "Disclaimer ◝(ᵔᵕᵔ)◜",
-      "disclaimerText": "Please note: sudo-flix does not host any files itself but instead only display's content from 3rd party providers. Legal issues should be taken up with them."
+      "disclaimer": "Disclaimer ",
+      "disclaimerText": "Please note: movie-vault does not host any files itself but instead only display's content from 3rd party providers. Legal issues should be taken up with them."
     },
     "links": {
       "discord": "Discord",
@@ -102,10 +102,10 @@
       "github": "GitHub",
       "twitter": "Twitter"
     },
-    "tagline": "Watch your favorite shows and movies for free with no ads ever! (っ'ヮ'c)"
+    "tagline": "Watch your favorite shows and movies for free with no ads ever!"
   },
   "global": {
-    "name": "sudo-flix",
+    "name": "movie-vault",
     "pages": {
       "about": "About",
       "dmca": "DMCA",
@@ -113,7 +113,7 @@
       "support": "Support",
       "login": "Login",
       "onboarding": "Setup",
-      "pagetitle": "{{title}} - sudo-flix",
+      "pagetitle": "{{title}} - movie-vault",
       "register": "Register",
       "settings": "Settings"
     }
@@ -139,11 +139,11 @@
           "What are you in the mood for?",
           "Should we delete your browser history?",
           "What do you want to stream?",
-          "Sudo-Flix is the best site ever!",
+          "movie-vault is the best site ever!",
           "What's on your watchlist today?",
           "How was your day?",
           "My bad the site never works...",
-          "Isn't sudo-flix just the best?",
+          "Isn't movie-vault just the best?",
           ">ᴗ<"
         ]
       },
@@ -153,27 +153,27 @@
       "day": {
         "default": "What would you like to watch this afternoon?",
         "extra": ["Have you seen Blazing Saddles?"],
-        "extra": ["Welcome to Sudo-Flix!"],
-        "extra": [" /ᐠ>ヮ<ᐟ\\ฅ"],
-        "extra": ["Viva la sudo-flix!"]
+        "extra": ["Welcome to movie-vault!"],
+        "extra": ["Hello there!"],
+        "extra": ["Viva la movie-vault!"]
       },
       "morning": {
         "default": "What would you like to watch this morning?",
         "extra": ["Can't go wrong with Friends"],
         "extra": ["I hear The Expanse is popular"],
         "extra": ["\"૮₍  ˶•⤙•˶ ₎ა"],
-        "extra": ["Viva la sudo-flix!"]
+        "extra": ["Viva la movie-vault!"]
       },
       "night": {
         "default": "What would you like to watch tonight?",
         "extra": ["Rick & Morty is great with friends!"],
         "extra": ["Go smoke and watch The Simpsons!"],
         "extra": ["(づ ᴗ _ᴗ)づ♡"],
-        "extra": ["Viva la sudo-flix!"]
+        "extra": ["Viva la movie-vault!"]
       },
       "420": {
         "default": "What would you like to watch this 4/20?",
-        "extra": ["Happy 4/20 🥳!"]
+        "extra": ["Happy 4/20!"]
       }
     }
   },
@@ -187,7 +187,7 @@
   },
   "navigation": {
     "banner": {
-      "offline": "Check your internet connection, silly goose! 🦢"
+      "offline": "Check your internet connection, silly goose! "
     },
     "menu": {
       "about": "About us",
@@ -208,7 +208,7 @@
   "downtimeNotice": {
     "badge": "Issues",
     "goHome": "Go home",
-    "message": "sudo-flix.lol is experiencing issues with some providers again, if you cant find or play a show please change the source. Expect this error to persist throughout the below times.",
+    "message": "movie-vault.lol is experiencing issues with some providers again, if you cant find or play a show please change the source. Expect this error to persist throughout the below times.",
     "timeFrame": "<bold>March 31th 11:00 PM - 5:00 AM EST</bold>",
     "title": "Provider issues"
   },
@@ -221,7 +221,7 @@
     },
     "extension": {
       "back": "Go back",
-      "explainer": "Using the browser extension, you can get the best streams we have to offer. With just a simple install. 👌",
+      "explainer": "Using the browser extension, you can get the best streams we have to offer. With just a simple install.",
       "explainerIos": "Unfortunately, the browser extension is not supported on iOS, Press <bold>Go back</bold> to choose another option.",
       "extensionHelp": "If you've installed the extension but it's not detected, <bold>open the extension through your browsers extension menu</bold> and follow the steps on screen.",
       "linkChrome": "Install Chrome extension",
@@ -229,7 +229,7 @@
       "notDetecting": "Installed on Chrome, but the site isn't detecting it? Try reloading the page!",
       "notDetectingAction": "Reload page",
       "status": {
-        "disallowed": "Extension is not enabled for this page (,,>﹏<,,)",
+        "disallowed": "Extension is not enabled for this page",
         "disallowedAction": "Enable extension",
         "failed": "Failed to request status",
         "loading": "Waiting for you to install the extension",
@@ -272,7 +272,7 @@
           "title": "Custom proxy"
         }
       },
-      "title": "Let's get you setup with sudo-flix 🥳"
+      "title": "Let's get you setup with movie-vault "
     }
   },
   "overlays": {
@@ -288,11 +288,11 @@
     },
     "menus": {
       "downloads": {
-        "disclaimer": "Downloads are taken directly from the provider. sudo-flix does not have control over how the downloads are provided.",
+        "disclaimer": "Downloads are taken directly from the provider. movie-vault does not have control over how the downloads are provided.",
         "copyHlsPlaylist": "Copy HLS playlist link",
         "downloadSubtitle": "Download current subtitle",
         "downloadVideo": "Download video",
-        "hlsDisclaimer": "Downloads are taken directly from the provider. sudo-flix does not have control over how the downloads are provided.<br /><br />Please note you are downloading an HLS playlist, <bold>it is not recommended to download if you are not familiar with advanced streaming formats</bold>. Try different sources for different formats.",
+        "hlsDisclaimer": "Downloads are taken directly from the provider. movie-vault does not have control over how the downloads are provided.<br /><br />Please note you are downloading an HLS playlist, <bold>it is not recommended to download if you are not familiar with advanced streaming formats</bold>. Try different sources for different formats.",
         "onAndroid": {
           "1": "To download on Android, click the download button then, on the new page, <bold>tap and hold</bold> on the video, then select <bold>save</bold>.",
           "shortTitle": "Download / Android",
@@ -351,7 +351,7 @@
           "title": "No embeds found"
         },
         "noStream": {
-          "text": "This source has no streams for this movie or show. /ᐠ - ˕ -マ Ⳋ",
+          "text": "This source has no streams for this movie or show.",
           "title": "No stream :("
         },
         "title": "Sources",
@@ -378,13 +378,13 @@
       },
       "dmca": {
         "badge": "Removed",
-        "text": "This media is no longer available due to a takedown notice or copyright claim. 😨",
+        "text": "This media is no longer available due to a takedown notice or copyright claim.",
         "title": "Media has been removed"
       },
       "extensionPermission": {
         "badge": "Permission Missing",
         "button": "Use extension",
-        "text": "You have the browser extension, but we need your permission to get started using the extension. (¬_¬)",
+        "text": "You have the browser extension, but we need your permission to get started using the extension.",
         "title": "Configure the extension"
       },
       "failed": {
@@ -415,7 +415,7 @@
         "errorNotSupported": "The media or media provider object is not supported."
       },
       "homeButton": "Go home",
-      "text": "There was an error trying to play the media 😖. Please try again!",
+      "text": "There was an error trying to play the media . Please try again!",
       "title": "Failed to play video!"
     },
     "scraping": {
@@ -447,15 +447,15 @@
       "shortRemaining": "-{{timeLeft}}"
     },
     "turnstile": {
-      "description": "Please prove your humanity by completing the Captcha on the right. This is to keep sudo-flix.lol safe!",
+      "description": "Please prove your humanity by completing the Captcha on the right. This is to keep movie-vault.lol safe!",
       "error": "Failed to verify your humanity! Please try again.",
       "title": "Are You a Robot 🤖?",
-      "verifyingHumanity": "Verifying your humanity... (^▽^)👍"
+      "verifyingHumanity": "Verifying your humanity..."
     }
   },
   "support": {
     "title": "Support",
-    "text": "sudo-flix is designed to be as user-friendly as possible. However, people still have questions and issues. This page is here to help resolve these shortcomings",
+    "text": "movie-vault is designed to be as user-friendly as possible. However, people still have questions and issues. This page is here to help resolve these shortcomings",
     "q1": {
       "body": "Well, you can join the official <0>movie-web discord</0> and ask questions there or you can email the one provided at the bottom of this page.",
       "title": "Where can I get help?"
@@ -467,7 +467,7 @@
   },
   "screens": {
     "dmca": {
-      "text": "Welcome to sudo-flix's DMCA contact page. If you believe your copyrighted work has been improperly used on our platform (😢), please send a detailed DMCA notice to: <bold>dev@sudo-flix.lol</bold> below. Please include a description of the copyrighted material, your contact details, and a statement of good faith belief. We're committed to resolving these matters promptly and appreciate your cooperation.",
+      "text": "Welcome to movie-vault's DMCA contact page. If you believe your copyrighted work has been improperly used on our platform (😢), please send a detailed DMCA notice to: <bold>dev@movie-vault.lol</bold> below. Please include a description of the copyrighted material, your contact details, and a statement of good faith belief. We're committed to resolving these matters promptly and appreciate your cooperation.",
       "title": "DMCA :("
     },
     "loadingApp": "Loading application",
@@ -494,7 +494,7 @@
       },
       "admin": {
         "title": "Admin panel",
-        "text": "Utilize tools made for testing sudo-flix's condition.",
+        "text": "Utilize tools made for testing movie-vault's condition.",
         "button": "Check it out"
       },
       "actions": {
