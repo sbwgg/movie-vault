@@ -78,9 +78,6 @@ export function Footer() {
           <FooterLink icon={Icons.DISCORD} href={conf().DISCORD_LINK}>
             {t("footer.links.discord")}
           </FooterLink>
-          <FooterLink to="/dmca" icon={Icons.DRAGON}>
-            {t("footer.links.dmca")}
-          </FooterLink>
           <div className="inline md:hidden">
             <Dmca />
           </div>
