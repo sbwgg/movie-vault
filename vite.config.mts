@@ -119,7 +119,9 @@ export default defineConfig(({ mode }) => {
       splitVendorChunkPlugin(),
       visualizer() as PluginOption
     ],
-
+    server: {
+      hmr: true, // Enable hot module replacement
+    },
     build: {
       sourcemap: true,
       rollupOptions: {

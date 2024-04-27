@@ -94,7 +94,7 @@
   "footer": {
     "legal": {
       "disclaimer": "Disclaimer ",
-      "disclaimerText": "movie-vault does not host any files itself but instead only display's content from 3rd party providers. Legal issues should be taken up with them and not use, cheers mate."
+      "disclaimerText": "movie-vault does not host any files itself but instead only display's content from 3rd party providers. Legal issues should be taken up with them and not us."
     },
     "links": {
       "discord": "Discord",
@@ -120,7 +120,7 @@
   },
   "home": {
     "bookmarks": {
-      "sectionTitle": "Bookmarks"
+      "sectionTitle": "Your Bookmarks"
     },
     "continueWatching": {
       "sectionTitle": "Continue Watching..."
@@ -132,7 +132,7 @@
       "allResults": "That's all we have...",
       "failed": "Failed to find media, try again!",
       "loading": "Loading...",
-      "noResults": "We couldn't find anything :(",
+      "noResults": "We couldn't find anything",
       "placeholder": {
         "default": "What do you want to watch?",
         "extra": [
