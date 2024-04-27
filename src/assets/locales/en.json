@@ -7,7 +7,7 @@
       "title": "Where does the content come from?"
     },
     "q2": {
-      "body": "I do not collect donations for movie-vault. All donations go directly to the movie-web team's kofi",
+      "body": "I do not collect donations for movie-vault. All donations go directly to the movie-vault team's on kofi.",
       "title": "Where do my donations go?"
     },
     "q3": {
@@ -19,7 +19,7 @@
       "title": "The search results display the show or movie, why can't I play it?"
     },
     "q5": {
-      "body": "All data is synced to the sudo-backend which is different than the community backend and is independently hosted by me, anyone is free to use this as well.",
+      "body": "All data is synced to the sudo-backend which is different than the community backend and is independently hosted by BadDev, anyone is free to use this as well.",
       "title": "What about my data and stuff?"
     },
     "q6": {
