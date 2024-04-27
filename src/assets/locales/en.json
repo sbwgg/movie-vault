@@ -94,7 +94,7 @@
   "footer": {
     "legal": {
       "disclaimer": "Disclaimer ",
-      "disclaimerText": "Please note: movie-vault does not host any files itself but instead only display's content from 3rd party providers. Legal issues should be taken up with them."
+      "disclaimerText": "movie-vault does not host any files itself but instead only display's content from 3rd party providers. Legal issues should be taken up with them and not use, cheers mate."
     },
     "links": {
       "discord": "Discord",
@@ -193,7 +193,7 @@
       "about": "About us",
       "donation": "Donate",
       "logout": "Log out",
-      "register": "Sync to sudo-cloud",
+      "register": "Sync to movie-cloud",
       "settings": "Settings",
       "support": "Support"
     }
@@ -202,7 +202,7 @@
     "badge": "Not found",
     "goHome": "Back to home",
     "reloadButton": "Try again",
-    "message": "We looked everywhere: under the bins, in the closet, behind the proxy but ultimately couldn't find the page you are looking for. (ಥ﹏ಥ)",
+    "message": "We looked everywhere: under the bins, in the closet, behind the proxy but ultimately couldn't find the page you are looking for.",
     "title": "Couldn't find that page"
   },
   "downtimeNotice": {
@@ -216,7 +216,7 @@
     "defaultConfirm": {
       "cancel": "Cancel",
       "confirm": "Use default setup",
-      "description": "The default setup does not have the best streams and can be unbearably slow. ( ͠° ͟ʖ ͡°)",
+      "description": "The default setup does not have the best streams and can be unbearably slow.",
       "title": "Are you sure?"
     },
     "extension": {
