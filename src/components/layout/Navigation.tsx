@@ -94,13 +94,6 @@ export function Navigation(props: NavigationProps) {
               >
                 <IconPatch icon={Icons.DISCORD} clickable downsized />
               </a>
-              <a
-                href={conf().TOP_RATED}
-                rel="noreferrer"
-                className="text-xl text-white tabbable rounded-full"
-              >
-                <IconPatch icon={Icons.STATS} clickable downsized />
-              </a>
             </div>
             <div className="relative pointer-events-auto">
               <LinksDropdown>
