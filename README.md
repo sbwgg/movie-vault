@@ -1,28 +1,27 @@
 # Sudo-Flix
-[![Sudo-Flix Image](.github/Sudo-Flix.png)](https://github.com/itzCozi)  
+[![Sudo-Flix Image](.github/Sudo-Flix.png)](https://docs.sudo-flix.lol)  
 
 **I *do not* endorse piracy of any kind I simply enjoy programming and large user counts.**
 
 ## Links And Resources
 | Service        | Link                                                             | Source Code                                              |
 |----------------|------------------------------------------------------------------|----------------------------------------------------------|
-| Movie-Web Docs | [movie-web-docs](https://movie-web.github.io/docs)               | [Source Code](https://github.com/movie-web/docs)         |
-| Extension      | [movie-web plugin](https://shorturl.at/iqzES)                    | [Source Code](https://github.com/movie-web/extension)    |
-| Proxy          | [sudo-proxy](https://sudo-proxy.up.railway.app)                  | [Source Code](https://gitlab.com/sudo-flix/simple-proxy) |
-| Backend        | [sudo-backend](https://backend.sudo-flix.lol)                    | [Source Code](https://github.com/movie-web/backend)      |
-| Frontend       | [sudo-flix](https://sudo-flix.lol), [2](https://flix.kanded.xyz) | [Source Code](https://github.com/sussy-code/smov)        |
-| NSBX           | [NSBX API](https://nsbx.ru)                                      | N/A                                                      |
+| Sudo-Flix Docs | [sudo-docs](https://sussy-code.github.io/docs)                   | [source code](https://github.com/sussy-code/docs)        |
+| Extension      | [extension](https://sussy-code.github.io/docs/extension)         | [source code](https://github.com/sussy-code/browser-ext) |
+| Proxy          | [sudo-proxy](https://sudo-proxy.up.railway.app)                  | [source code](https://github.com/sussy-code/sudo-proxy)  |             
+| Backend        | [sudo-backend](https://backend.sudo-flix.lol)                    | [source code](https://github.com/sussy-code/backend)     |
+| Frontend       | [sudo-flix](https://sudo-flix.lol), [2](https://flix.kanded.xyz) | [source code](https://github.com/sussy-code/smov)        |
 
-**I provide these if you are not able to host yourself, though I do encourage hosting the frontend.**
+***I provide these if you are not able to host yourself, though I do encourage hosting the frontend.***
 
 
 ## Referrers
 - [Priacy Subreddit Megathread](https://www.reddit.com/r/Piracy/s/iymSloEpXn)
 - [Toon's Instances](https://erynith.github.io/movie-web-instances)
-- [Movie-Web Docs](https://movie-web.github.io/docs/instances)
-- [Movie-Web Discord](https://movie-web.github.io/links/discord)
+- [Sudo-Flix docs](https://sussy-code.github.io/docs)
+- [Sudo-Flix Discord](https://discord.gg/r5cYshWM4G)
 - Search Engines: DuckDuckGo, Bing, Google
-- Rentry.co? (This ones a mystery)
+- Rentry.co
 
 
 ## Running Locally
@@ -50,7 +49,6 @@ git commit -m "Update sudo-flix instance (merge upstream/main)"
 git push  # Push to YOUR repository
 ```
 
+
 ## Contact Me
-**Discord:** *.baddeveloper*  
-**Email:** *[dev@sudo-flix.lol](mailto:dev@sudo-flix.lol)*  
-**Github:** *[itzCozi](https://github.com/itzCozi)*
+**Email:** *[dev@sudo-flix.lol](mailto:dev@sudo-flix.lol)* 
