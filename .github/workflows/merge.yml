@@ -20,4 +20,5 @@ jobs:
       - name: Merge upstream changes into fork
         run: |
           git fetch upstream
-          git merge upstream/main
+          git merge upstream/main  # Replace 'main' with the correct branch name of the upstream repository
+          git push origin main    # Push the merged changes to the forked repository
