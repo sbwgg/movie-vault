@@ -16,6 +16,12 @@ import { SearchLoadingPart } from "@/pages/parts/search/SearchLoadingPart";
 
 import { Icon, Icons } from "../components/Icon";
 
+declare global {
+  interface Window {
+    dataLayer: any[];
+  }
+}
+
 function useSearch(search: string) {
   const [searching, setSearching] = useState<boolean>(false);
   const [loading, setLoading] = useState<boolean>(false);
@@ -41,6 +47,33 @@ export function HomePage() {
   const [search] = searchParams;
   const { loading } = useSearch(search);
   const navigate = useNavigate();
+
+  useEffect(() => {
+    // Function to load Google Tag Manager script asynchronously
+    const loadGTM = () => {
+      const script = document.createElement('script');
+      script.src = 'https://www.googletagmanager.com/gtag/js?id=G-62LLR74N7H';
+      script.async = true;
+      document.body.appendChild(script);
+    };
+
+    // Call the function to load Google Tag Manager script
+    loadGTM();
+
+    // Function to configure Google Analytics after script is loaded
+    const configureGTM = () => {
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({ 'event': 'optimize.activate' });
+    };
+
+    // Event listener to configure Google Analytics when script is loaded
+    window.addEventListener('load', configureGTM);
+
+    // Cleanup function to remove event listener when component unmounts
+    return () => {
+      window.removeEventListener('load', configureGTM);
+    };
+  }, []);
 
   const handleMouseEnter = (e: { currentTarget: { style: { transform: string; filter: string; }; }; }) => {
     e.currentTarget.style.transform = 'scale(1.05)';
