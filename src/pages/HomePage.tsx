@@ -46,9 +46,9 @@ export function HomePage() {
         <HeroPart searchParams={searchParams} setIsSticky={setShowBg} />
         <div style={{ textAlign: 'center' }}>
   <a href="/discover" style={{ display: 'inline-block', textDecoration: 'none', color: 'inherit' }}>
-    <p className="font-bold text-buttons-secondaryText" id="explore" style={{ fontSize: '18px' }}>
+    <p className="font-bold text-buttons-secondaryText" id="explore" style={{ fontSize: '18px', color: 'white' }}>
     🎥 Discover Your Next Movie or Series 🎥
-    </p>
+</p>
   </a>
 </div>
 
