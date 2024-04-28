@@ -25,13 +25,13 @@ export function Notification({ message, onClose }: NotificationProps) {
   return (
     <div className="fixed top-0 left-0 w-full h-full bg-gray-900 bg-opacity-50 flex items-center justify-center z-50">
       <div className="bg-#1f1f32 rounded-lg p-8 max-w-md relative">
-      <button
-  type="button"
-  className="absolute top-0 right-0 mt-2 mr-2 bg-rgba(30,30,51,255)-500 hover:bg-rgba(30,30,51,255)-600 text-white font-bold py-2 px-4 rounded"
-  onClick={handleClose}
->
-  x
-</button>
+        <button
+          type="button"
+          className="absolute top-0 right-0 mt-2 mr-2 bg-rgba(30,30,51,255)-500 hover:bg-rgba(30,30,51,255)-600 text-white font-bold py-2 px-4 rounded"
+          onClick={handleClose}
+        >
+          x
+        </button>
         <p className="font-bold text-xl text-center bg-gray-700 text-white p-2 rounded-md">
           {message}
         </p>
@@ -47,8 +47,18 @@ export function HomePage() {
   const [search] = searchParams;
   const [showNotification, setShowNotification] = useState(true);
 
+  useEffect(() => {
+    // Check if the notification has been closed previously
+    const isNotificationClosed = localStorage.getItem("notificationClosed");
+    if (isNotificationClosed) {
+      setShowNotification(false);
+    }
+  }, []);
+
   const handleCloseNotification = () => {
+    // Close the notification and store the flag in local storage
     setShowNotification(false);
+    localStorage.setItem("notificationClosed", "true");
   };
 
   useEffect(() => {
