@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
 import { Link as RouterLink, useNavigate } from "react-router-dom";
@@ -15,7 +15,6 @@ import { SearchListPart } from "@/pages/parts/search/SearchListPart";
 import { SearchLoadingPart } from "@/pages/parts/search/SearchLoadingPart";
 
 import { Icon, Icons } from "../components/Icon";
-
 
 function useSearch(search: string) {
   const [searching, setSearching] = useState<boolean>(false);
@@ -63,18 +62,25 @@ export function HomePage() {
         <div style={{ textAlign: 'center' }}>
           <RouterLink
             to="/discover"
-            className="text-buttons-secondaryText rounded-[28px] p-3 flex items-center cursor-pointer"
+            className="text-buttons-secondaryText rounded-[28px] p-3 flex items-center cursor-pointer search-bar"
             id="explore"
             style={{
               fontSize: '18px',
-              color: '#5a5a5b',
-              backgroundColor: 'rgba(40, 40, 40, 0.9)',
-              transition: 'transform 0.2s, filter 0.2s'
+              color: '#3f3f5e',
+              backgroundColor: '#1f1f32',
+              transition: 'transform 0.2s, filter 0.2s',
+              borderRadius: '28px',
+              display: 'inline-flex',
+              alignItems: 'center',
+              textDecoration: 'none',
+              padding: '8px 12px', 
             }}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
           >
-            <Icon icon={Icons.MOVIE} className="mr-2" />
+            <div className="mr-1"> 
+              <Icon icon={Icons.MOVIE} />
+            </div>
             <p style={{ margin: 0 }}>Discover Your Next Movie or Series</p>
           </RouterLink>
         </div>

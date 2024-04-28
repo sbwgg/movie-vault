@@ -10,21 +10,6 @@ const availableThemes = [
     selector: "theme-default",
     key: "settings.appearance.themes.default",
   },
-  {
-    id: "teal",
-    selector: "theme-teal",
-    key: "settings.appearance.themes.teal",
-  },
-  {
-    id: "red",
-    selector: "theme-red",
-    key: "settings.appearance.themes.red",
-  },
-  {
-    id: "gray",
-    selector: "theme-gray",
-    key: "settings.appearance.themes.gray",
-  },
 ];
 
 function ThemePreview(props: {
