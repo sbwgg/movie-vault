@@ -1,0 +1,24 @@
+name: Merge on Netlify deploy
+
+permissions:
+  contents: write
+
+on:
+  repository_dispatch:
+    types: [netlify]
+
+jobs:
+  merge:
+    name: Merge fork
+    runs-on: ubuntu-latest
+    if: ${{ github.event.repository.fork }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Merge upstream changes into fork
+        run: |
+          git fetch upstream
+          git merge upstream/main  # Replace 'main' with the correct branch name of the upstream repository
+          git push origin main    # Push the merged changes to the forked repository
