@@ -17,8 +17,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Merge upstream changes into fork
+      - name: Merge main branch from fork
         run: |
-          git fetch upstream
-          git merge upstream/main  # Replace 'main' with the correct branch name of the upstream repository
-          git push origin main    # Push the merged changes to the forked repository
+          git fetch origin
+          git checkout main
+          git merge origin/main
+          git push origin main
