@@ -106,7 +106,7 @@ export function HomePage() {
               padding: '8px 12px', 
             }}
           >
-            <p className="font-bold text-buttons-secondaryText" style={{ fontSize: "18px" }}>🎥 Discover Your Next Movie or Series 🎥</p>
+            <p className="font-bold text-buttons-secondaryText" style={{ fontSize: "18px" }}>🎥 Discover Your Next Movie or Series </p>
           </RouterLink>
         </div>
       </div>
