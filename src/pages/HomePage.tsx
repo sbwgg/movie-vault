@@ -78,8 +78,8 @@ export function HomePage() {
   return (
     <HomeLayout showBg={showBg}>
       <Helmet>
-        <title>{t("global.name")}</title>
-      </Helmet>
+  <title>Home - movie-vault</title>
+</Helmet>
       {/* Notification */}
       {showNotification && (
         <Notification
