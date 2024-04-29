@@ -33,7 +33,7 @@
         "copy": "Copy"
     },
     "auth": {
-        "createAccount": "Don't have an account yet 😬 <0>Create an account.</0>",
+        "createAccount": "<0>Create an account.</0>",
         "deviceNameLabel": "Device name",
         "deviceNamePlaceholder": "Personal phone",
         "generate": {
@@ -50,7 +50,7 @@
             "passphrasePlaceholder": "Passphrase",
             "submit": "Login",
             "title": "Login to your account",
-            "validationError": "Incorrect or incomplete passphrase /ᐠ. .ᐟ\\"
+            "validationError": "Incorrect or incomplete passphrase\\"
         },
         "register": {
             "information": {
@@ -72,12 +72,12 @@
             "host": "You are connecting to <0>{{hostname}}</0> - please confirm you trust it before making an account...",
             "no": "Go back",
             "title": "Do you trust this server?",
-            "yes": "I trust this server 🤞"
+            "yes": "I trust this server."
         },
         "verify": {
             "description": "Please enter your passphrase from earlier to confirm you have saved it and to create your account",
             "invalidData": "Data is not valid",
-            "noMatch": "Passphrase doesn't match 😭",
+            "noMatch": "Passphrase doesn't match",
             "passphraseLabel": "Your 12-word passphrase",
             "recaptchaFailed": "ReCaptcha validation failed",
             "register": "Create account",
@@ -85,7 +85,7 @@
         }
     },
     "errors": {
-        "badge": "It broke 💀",
+        "badge": "It broke!",
         "details": "Error details",
         "reloadPage": "Reload the page",
         "showError": "Show error details",
@@ -93,7 +93,7 @@
     },
     "footer": {
         "legal": {
-            "disclaimer": "Disclaimer ◝(ᵔᵕᵔ)◜",
+            "disclaimer": "Disclaimer",
             "disclaimerText": "Please note: movie-vault does not host any files itself but instead only display's content from 3rd party providers. Legal issues should be taken up with them."
         },
         "links": {
@@ -102,7 +102,7 @@
             "github": "GitHub",
             "twitter": "Twitter"
         },
-        "tagline": "Watch your favorite shows and movies for free with no ads ever! (っ'ヮ'c)"
+        "tagline": "Watch your favorite shows and movies for free with no ads ever!"
     },
     "global": {
         "name": "movie-vault",
@@ -132,7 +132,7 @@
             "allResults": "That's all we have...",
             "failed": "Failed to find media, try again!",
             "loading": "Loading...",
-            "noResults": "We couldn't find anything :(",
+            "noResults": "We couldn't find anything..",
             "placeholder": {
                 "default": "What do you want to watch?",
                 "extra": [
@@ -171,7 +171,7 @@
             "420": {
                 "default": "What would you like to watch this 4/20?",
                 "extra": [
-                    "Happy 4/20 🥳!"
+                    "Happy 4/20!"
                 ]
             }
         }
@@ -186,7 +186,7 @@
     },
     "navigation": {
         "banner": {
-            "offline": "Check your internet connection, silly goose! 🦢"
+            "offline": "Check your internet connection, silly goose!"
         },
         "menu": {
             "about": "About us",
@@ -220,7 +220,7 @@
         },
         "extension": {
             "back": "Go back",
-            "explainer": "Using the browser extension, you can get the best streams we have to offer. With just a simple install. 👌",
+            "explainer": "Using the browser extension, you can get the best streams we have to offer. With just a simple install.",
             "explainerIos": "Unfortunately, the browser extension is not supported on iOS, Press <bold>Go back</bold> to choose another option.",
             "extensionHelp": "If you've installed the extension but it's not detected, <bold>open the extension through your browsers extension menu</bold> and follow the steps on screen.",
             "linkChrome": "Install Chrome extension",
@@ -228,7 +228,7 @@
             "notDetecting": "Installed on Chrome, but the site isn't detecting it? Try reloading the page!",
             "notDetectingAction": "Reload page",
             "status": {
-                "disallowed": "Extension is not enabled for this page (,,>﹏<,,)",
+                "disallowed": "Extension is not enabled for this page",
                 "disallowedAction": "Enable extension",
                 "failed": "Failed to request status",
                 "loading": "Waiting for you to install the extension",
@@ -256,7 +256,7 @@
             "explainer": "To get the best streams possible, you will need to choose which streaming method you want to use.",
             "options": {
                 "default": {
-                    "text": "I don't want good quality streams,<0 /> <1>use the default setup ▄︻デ══━一 ʕ•͡-•ʔ</1>"
+                    "text": "I don't want good quality streams,<0 /> <1>use the default setup</1>"
                 },
                 "extension": {
                     "action": "Install extension",
@@ -271,7 +271,7 @@
                     "title": "Custom proxy"
                 }
             },
-            "title": "Let's get you setup with movie-vault 🥳"
+            "title": "Let's get you setup with movie-vault"
         }
     },
     "overlays": {
@@ -283,7 +283,7 @@
             "short": "Back"
         },
         "casting": {
-            "enabled": "Casting to device 🎬"
+            "enabled": "Casting to device"
         },
         "menus": {
             "downloads": {
@@ -350,7 +350,7 @@
                     "title": "No embeds found"
                 },
                 "noStream": {
-                    "text": "This source has no streams for this movie or show. /ᐠ - ˕ -マ Ⳋ",
+                    "text": "This source has no streams for this movie or show.",
                     "title": "No stream :("
                 },
                 "title": "Sources",
@@ -367,7 +367,7 @@
                 },
                 "title": "Subtitles",
                 "unknownLanguage": "Unknown",
-                "dropSubtitleFile": "Drop subtitle file here! >_<"
+                "dropSubtitleFile": "Drop subtitle file here!"
             }
         },
         "metadata": {
@@ -377,13 +377,13 @@
             },
             "dmca": {
                 "badge": "Removed",
-                "text": "This media is no longer available due to a takedown notice or copyright claim. 😨",
+                "text": "This media is no longer available due to a takedown notice or copyright claim.",
                 "title": "Media has been removed"
             },
             "extensionPermission": {
                 "badge": "Permission Missing",
                 "button": "Use extension",
-                "text": "You have the browser extension, but we need your permission to get started using the extension. (¬_¬)",
+                "text": "You have the browser extension, but we need your permission to get started using the extension.",
                 "title": "Configure the extension"
             },
             "failed": {
@@ -414,13 +414,13 @@
                 "errorNotSupported": "The media or media provider object is not supported."
             },
             "homeButton": "Go home",
-            "text": "There was an error trying to play the media 😖. Please try again!",
+            "text": "There was an error trying to play the media. Please try again!",
             "title": "Failed to play video!"
         },
         "scraping": {
             "items": {
                 "failure": "Error occurred",
-                "notFound": "Doesn't have the video (╥﹏╥)",
+                "notFound": "Doesn't have the video",
                 "pending": "Checking for videos..."
             },
             "notFound": {
@@ -449,7 +449,7 @@
             "description": "Please prove your humanity by completing the Captcha on the right. This is to keep movie-vault.lol safe!",
             "error": "Failed to verify your humanity! Please try again.",
             "title": "Are You a Robot 🤖?",
-            "verifyingHumanity": "Verifying your humanity... (^▽^)👍"
+            "verifyingHumanity": "Verifying your humanity..."
         }
     },
     "support": {
@@ -466,8 +466,8 @@
     },
     "screens": {
         "dmca": {
-            "text": "Welcome to movie-vault's DMCA contact page. If you believe your copyrighted work has been improperly used on our platform (😢), please send a detailed DMCA notice to: <bold>dev@movie-vault.lol</bold> below. Please include a description of the copyrighted material, your contact details, and a statement of good faith belief. We're committed to resolving these matters promptly and appreciate your cooperation.",
-            "title": "DMCA :("
+            "text": "Welcome to movie-vault's DMCA contact page. If you believe your copyrighted work has been improperly used on our platform, please send a detailed DMCA notice to the email below. Please include a description of the copyrighted material, your contact details, and a statement of good faith belief. We're committed to resolving these matters promptly and appreciate your cooperation.",
+            "title": "DMCA"
         },
         "loadingApp": "Loading application",
         "loadingUser": "Loading your profile",
@@ -479,7 +479,7 @@
             "textWithReset": "Failed to load your profile from your custom server, want to reset back to the default server?"
         },
         "migration": {
-            "failed": "Failed to migrate your data. 😿",
+            "failed": "Failed to migrate your data.",
             "inProgress": "Please hold, we are migrating your data. This shouldn't take long..."
         }
     },
@@ -522,7 +522,7 @@
             },
             "register": {
                 "cta": "Get started",
-                "text": "Share your watch progress between devices and keep them synced. ( ̧⸝⸝⍢⸝⸝)ෆ",
+                "text": "Share your watch progress between devices and keep them synced.",
                 "title": "Sync to the cloud"
             },
             "title": "Account"
@@ -548,9 +548,9 @@
                 "doSetup": "Do setup",
                 "errorStatus": {
                     "description": "It seems that one or more items in this setup need your attention.",
-                    "title": "Something needs your attention 😱"
+                    "title": "Something needs your attention"
                 },
-                "itemError": "There is something wrong with this setting. Go through setup again to fix it. (ᴗ_ ᴗ。)",
+                "itemError": "There is something wrong with this setting. Go through setup again to fix it.",
                 "items": {
                     "default": "Default setup",
                     "extension": "Extension",
@@ -558,7 +558,7 @@
                 },
                 "redoSetup": "Redo setup",
                 "successStatus": {
-                    "description": "All things are in place for you to start watching your favorite media. (๑>◡<๑)",
+                    "description": "All things are in place for you to start watching your favorite media.",
                     "title": "Everything is set up!"
                 },
                 "unsetStatus": {
@@ -578,7 +578,7 @@
         },
         "preferences": {
             "language": "Application language",
-            "languageDescription": "Language applied to the entire application, only English has silly stuff 🙁.",
+            "languageDescription": "Language applied to the entire application, only English has silly stuff..",
             "thumbnail": "Generate thumbnails",
             "thumbnailDescription": "Most of the time, videos don't have thumbnails. You can enable this setting to generate them on the fly but they can make your video slower.",
             "thumbnailLabel": "Generate thumbnails",
@@ -600,7 +600,7 @@
                 "insecure": "Insecure",
                 "notLoggedIn": "You are not logged in",
                 "secure": "Secure",
-                "title": "App stats (for nerds) 🤓",
+                "title": "App stats (for nerds)",
                 "unknownVersion": "Unknown",
                 "userId": "User ID"
             }
@@ -609,10 +609,10 @@
             "backgroundLabel": "Background opacity",
             "backgroundBlurLabel": "Background blur",
             "colorLabel": "Color",
-            "previewQuote": "Would you rather have a thot daughter or a gay son? 🤔",
+            "previewQuote": "Would you rather have a thot daughter or a gay son?",
             "textSizeLabel": "Text size",
             "title": "Subtitles"
         },
-        "unsaved": "You have unsaved changes... ฅ^•ﻌ•^ฅ"
+        "unsaved": "You have unsaved changes..."
     }
 }
