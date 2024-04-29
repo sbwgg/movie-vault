@@ -18,44 +18,55 @@ export function HomePage() {
   const searchParams = useSearchQuery();
   const [search] = searchParams;
 
+  const styles = `
+    .hovered-link:hover {
+      transform: scale(1.05);
+      background-color: #3f3f60;
+      color: #ffffff;
+    }
+  `;
+
   return (
-    <HomeLayout showBg={showBg}>
-      <Helmet>
-        <title>Home - movie-vault</title>
-      </Helmet>
-      <div className="mb-16 sm:mb-24">
-        <HeroPart searchParams={searchParams} setIsSticky={setShowBg} />
-        <div style={{ textAlign: 'center' }}>
-          <RouterLink
-            to="/discover"
-            className="text-buttons-secondaryText rounded-[28px] p-3 flex items-center cursor-pointer search-bar"
-            id="explore"
-            style={{
-              fontSize: '18px',
-              color: '#3f3f5e',
-              backgroundColor: '#1f1f32',
-              transition: 'transform 0.2s, filter 0.2s',
-              borderRadius: '28px',
-              display: 'inline-flex',
-              alignItems: 'center',
-              textDecoration: 'none',
-              padding: '8px 12px', 
-            }}
-          >
-            <p className="font-bold text-buttons-secondaryText" style={{ fontSize: "18px" }}>🎥 Discover Your Next Movie or Series </p>
-          </RouterLink>
+    <>
+      <style>{styles}</style>
+      <HomeLayout showBg={showBg}>
+        <Helmet>
+          <title>Home - movie-vault</title>
+        </Helmet>
+        <div className="mb-16 sm:mb-24">
+          <HeroPart searchParams={searchParams} setIsSticky={setShowBg} />
+          <div style={{ textAlign: 'center' }}>
+            <RouterLink
+              to="/discover"
+              className="text-buttons-secondaryText rounded-[28px] p-3 flex items-center cursor-pointer search-bar hovered-link"
+              id="explore"
+              style={{
+                fontSize: '18px',
+                color: '#3f3f5e',
+                backgroundColor: '#1f1f32',
+                borderRadius: '28px',
+                display: 'inline-flex',
+                alignItems: 'center',
+                textDecoration: 'none',
+                padding: '8px 12px',
+                transition: 'transform 0.2s, background-color 0.2s, color 0.2s, filter 0.2s',
+              }}
+            >
+              <p className="font-bold text-buttons-secondaryText" style={{ fontSize: "18px" }}>🎥 Discover Your Next Movie or Series</p>
+            </RouterLink>
+          </div>
         </div>
-      </div>
-      <WideContainer>
-        {search ? (
-          <SearchListPart searchQuery={search} />
-        ) : (
-          <>
-            <BookmarksPart />
-            <WatchingPart />
-          </>
-        )}
-      </WideContainer>
-    </HomeLayout>
+        <WideContainer>
+          {search ? (
+            <SearchListPart searchQuery={search} />
+          ) : (
+            <>
+              <BookmarksPart />
+              <WatchingPart />
+            </>
+          )}
+        </WideContainer>
+      </HomeLayout>
+    </>
   );
 }
