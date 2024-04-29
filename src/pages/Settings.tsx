@@ -305,13 +305,6 @@ export function SettingsPage() {
             setSourceOrder={state.sourceOrder.set}
           />
         </div>
-        <div id="settings-appearance" className="mt-48">
-          <ThemePart
-            active={previewTheme ?? "default"}
-            inUse={activeTheme ?? "default"}
-            setTheme={setThemeWithPreview}
-          />
-        </div>
         <div id="settings-captions" className="mt-48">
           <CaptionsPart
             styling={state.subtitleStyling.state}
