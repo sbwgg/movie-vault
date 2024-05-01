@@ -23,10 +23,10 @@
             "title": "What about my data and stuff?"
         },
         "q6": {
-            "body": "Well movie-vault has a twitter account that can be found in the footer of this page as well as a link to the source code on Github.",
+            "body": "Well movie-vault has a link to the source code on Github which you can use, we also have a link to the Discord at the top right.",
             "title": "How can I find out more?"
         },
-        "title": "About movie-vault (^▽^)"
+        "title": "About movie-vault:"
     },
     "actions": {
         "copied": "Copied",
