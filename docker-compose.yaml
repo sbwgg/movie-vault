@@ -12,7 +12,7 @@ services:
       #   OPENSEARCH_ENABLED: "false"
       #   TMDB_READ_API_KEY: ""
       #   CORS_PROXY_URL: ""
-         DMCA_EMAIL: "jvcke@icloud.com"
+         DMCA_EMAIL: "lewis@levrx.lol"
       #   NORMAL_ROUTER: "false"
       #   BACKEND_URL: ""
       #   HAS_ONBOARDING: "false"
