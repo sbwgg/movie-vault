@@ -1,5 +1,5 @@
-# Sudo-Flix
-[![Sudo-Flix Image](.github/Sudo-Flix.png)](https://docs.sudo-flix.lol)  
+# movie-vault
+[![movie-vault Image](.github/movie-vault.png)](https://docs.sudo-flix.lol)  
 
 **I *do not* endorse piracy of any kind I simply enjoy programming and large user counts.**
 
@@ -51,4 +51,4 @@ git push  # Push to YOUR repository
 
 
 ## Contact Me
-**Email:** *[dev@sudo-flix.lol](mailto:dev@sudo-flix.lol)* 
+**Email:** *[lewis@levrx.lol](mailto:lewis@levrx.lol)* 
